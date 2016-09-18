@@ -66,5 +66,5 @@ function test(format) {
 }
 
 // test(gl.UNSIGNED_BYTE) // OK
-test(halfFloatExt.HALF_FLOAT_OES) // Failed
+test(halfFloatExt.HALF_FLOAT_OES) // Failed on Windows
 // test(gl.FLOAT) // OK
